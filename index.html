@@ -13,7 +13,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <!--Link to css stylesheet. href link to be replaced when file is created-->
-        <link href="#" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href='assets/css/reset.css'>
         <!--Can insert more links here if needed to reset css, or use frameworks for styling.-->
     </head>
     
@@ -21,92 +21,109 @@
     <body>
     
 <!--Webpage header-->
-        <header>
+        <div class="header">
             <!--Title is to be decided-->
             <h1>TITLE</h1>
             <!--Possible logo to add here (optional)-->
             <!--<img class="logo" src="#" alt="Logo">-->
-        </header>
+        </div>
         
 <!--Information about webpage-->
-        <section>
+        <div class="section">
             <h2>About this Website</h2>
             <!--Intro content to go here-->
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra tellus molestie, vestibulum lacus a, varius nisl. Curabitur iaculis enim eget leo malesuada, nec vehicula mauris porttitor. Suspendisse justo leo, commodo ac pulvinar quis, sollicitudin eget erat. Nam tincidunt commodo felis, nec luctus dolor blandit non. Nam pulvinar dictum augue nec consequat. Praesent euismod sapien convallis magna volutpat mattis. </p>
-        </section>
+        </div>
         
 <!--Links are main content-->
         <main>
             <!--I've got 6 divs, one for each of us, containg the image and link. At the moment, the image is a link, but we could link the text or the image or both. Or even link the text and make the image the background. But i've got it like this for the moment.-->
            
 <!--Links in divs-->
-<!--1-->
-            <div class="linkwrapper">
-                <!--image in link-->
-                <a href="#"> 
-                    <img class="pic" src="#" alt="Description">
-                </a>
-                <!--Website info-->
-                <p>Website title, by name</p>
-                <!--Can add an extra line here if we want to add anymore info-->
-            </div>
-<!--2-->            
-            <div class="linkwrapper">
-                <!--image in link-->
-                <a href="#"> 
-                    <img class="pic" src="#" alt="Description">
-                </a>
-                <!--Website info-->
-                <p>Website title, by name</p>
-                <!--Can add an extra line here if we want to add anymore info-->
-            </div>
-<!--3-->           
-            <div class="linkwrapper">
-                <!--image in link-->
-                <a href="#"> 
-                    <img class="pic" src="#" alt="Description">
-                </a>
-                <!--Website info-->
-                <p>Website title, by name</p>
-                <!--Can add an extra line here if we want to add anymore info-->
-            </div>
-<!--4-->           
-            <div class="linkwrapper">
-                <!--image in link-->
-                <a href="#"> 
-                    <img class="pic" src="#" alt="Description">
-                </a>
-                <!--Website info-->
-                <p>Website title, by name</p>
-                <!--Can add an extra line here if we want to add anymore info-->
-            </div>
-<!--5-->            
-            <div class="linkwrapper">
-                <!--image in link-->
-                <a href="#"> 
-                    <img class="pic" src="#" alt="Description">
-                </a>
-                <!--Website info-->
-                <p>Website title, by name</p>
-                <!--Can add an extra line here if we want to add anymore info-->
-            </div>
-<!--6-->           
-            <div class="linkwrapper">
-                <!--image in link-->
-                <a href="#"> 
-                    <img class="pic" src="#" alt="Description">
-                </a>
-                <!--Website info-->
-                <p>Website title, by name</p>
-                <!--Can add an extra line here if we want to add anymore info-->
+
+            <div class="container">
+                <!--1-->
+                  <div class="box">
+                      <!--Insert your details according to the label I created here-->
+                    <div class="img-box"  title="Your title" data-author="Your name"
+                         ><img src="Your link" alt=""></div>
+
+                      <div class="content">
+                        <h2>Title</h2>
+                        <h3>Your name</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio culpa dolores sapiente atque provident eaque ipsam minus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, odio! </p>
+                      </div>
+                  </div>
+                
+                    <!--2-->
+                    <div class="box">
+                        <!--Insert your details according to the label I created here-->
+                    <div class="img-box"  title="Your title" data-author="Your name"
+                         ><img src="Your link" alt=""></div>
+
+                      <div class="content">
+                        <h2>Title</h2>
+                        <h3>Your name</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio culpa dolores sapiente atque provident eaque ipsam minus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, odio! </p>
+                      </div>
+                  </div>
+                        
+                    <!--3-->
+                  <div class="box">
+                      <!--Insert your details according to the label I created here-->
+                    <div class="img-box"  title="Your title" data-author="Your name"
+                         ><img src="Your link" alt=""></div>
+
+                      <div class="content">
+                        <h2>Title</h2>
+                        <h3>Your name</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio culpa dolores sapiente atque provident eaque ipsam minus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, odio! </p>
+                      </div>
+                  </div>
+                <!--4-->
+                  <div class="box">
+                      <!--Insert your details according to the label I created here-->
+                    <div class="img-box"  title="Your title" data-author="Your name"
+                         ><img src="Your link" alt=""></div>
+
+                      <div class="content">
+                        <h2>Title</h2>
+                        <h3>Your name</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio culpa dolores sapiente atque provident eaque ipsam minus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, odio! </p>
+                      </div>
+                  </div>
+                <!--5-->
+                  <div class="box">
+                      <!--Insert your details according to the label I created here-->
+                    <div class="img-box"  title="Your title" data-author="Your name"
+                         ><img src="Your link" alt=""></div>
+
+                      <div class="content">
+                        <h2>Title</h2>
+                        <h3>Your name</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio culpa dolores sapiente atque provident eaque ipsam minus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, odio! </p>
+                      </div>
+                  </div>
+                <!--6-->
+                  <div class="box">
+                      <!--Insert your details according to the label I created here-->
+                    <div class="img-box"  title="Your title" data-author="Your name"
+                         ><img src="Your link" alt=""></div>
+
+                      <div class="content">
+                        <h2>Title</h2>
+                        <h3>Your name</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio culpa dolores sapiente atque provident eaque ipsam minus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, odio! </p>
+                      </div>
+                  </div>
             </div>
         </main>
         
 <!--Webage footer-->
-        <footer>
+        <div class="footer">
             <!--Created by UC blurb-->
             <p>This website was produced by students in the Faculty of Arts and Design, University of Canberra, 2020.</p>
-        </footer>
+        </div>
         
     </body>
     
